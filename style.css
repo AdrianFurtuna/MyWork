@@ -1,81 +1,253 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;0,800;1,200;1,400;1,500;1,700;1,800;1,900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
 
 #welcome-section {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 650px;
+    height: 850px;
     display: block;
-    background-color: rgb(192, 192, 192);
+    background-color: #d6d6d6;
     text-align: center;
 }
 
 .title-content {
     position: relative;
     top: 40%;
+    color: rgb(48, 48, 48); 
+    font-family: poppins;
+    font-size: 50px;
+}
+
+.title-content p{
+    margin:auto;
+    font-size: 35px;
+}
+
+.contacts {
+    position: relative;
+    top:-100px;
+    margin: auto;
+    width: 150px;
+    padding: 10px;
+
+} 
+
+.fa-github {
+    position: relative;
+    color: #373636;
+    display: flex;
+    padding: 20px;
+}
+
+.fa-github:hover {
+    transform: translateY(-2px);
+}
+
+.fa-linkedin {
+    position: relative;
+    color: #373636;
+    display: flex;
+    padding: 20px;
+
+}
+
+.fa-linkedin:hover {
+    transform: translateY(-2px);
+}
+
+.projects {
+    position: relative;  
+    font-size: 20px;
+    padding: 50px;
+
+}
+
+#navbar {
+    position: relative;
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#navbar-links-1 {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 8px 20px;
+    background: #373636;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    box-shadow:5px 5px 12px rgba(0,0,0,0.2);
+    border-radius: 3px;
+
+}
+
+#navbar-links-1:hover {
+    color: #d6d6d6;
+}
+
+#navbar-links-2 {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 8px 20px;
+    background: #373636;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    box-shadow:5px 5px 12px rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+
+#navbar-links-2:hover {
+    color: #d6d6d6;
+}
+
+#navbar-links-3 {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 8px 20px;
+    background: #373636;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    box-shadow:5px 5px 12px rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+
+#navbar-links-3:hover {
+    color: #d6d6d6;
 }
 
 .about-me-container {
     position: relative;
-    top: 100%;
+    font-family: poppins;
     width:60%;
-	height:300px;
+    height:300px;
 	background:#ffffff;
-	border-radius:20px;
 	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
 	display: flex;
-	margin: -10%  auto 20px auto;
+	margin: 0  auto 20px auto;
 	justify-content:space-evenly;
 	align-items: center;
 }
 
 .about-me-text {
     width: 90%;
-
+    margin-top: -13%;
 }
 
-.contacts {
+.project-info {
     position: relative;
-    padding-top: 2%;
+    font-family: poppins;
     margin: auto;
-    width: 10%;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.fa-github {
-    color: #373636;
-}
-
-.fa-linkedin {
-    color: #373636;
-}
-
-.projects {
-    position: relative;
-    font-size: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(9rem,1fr));
-    gap: 10%;
-}
-
-#navbar {
-    margin: auto;
-    padding: 7%;
-    width:40%;
-}
-
-#navbar-links {
-    background-color: #373636;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
+    margin-top: 10%;
+    margin-left: 5%;
     display: inline-block;
+    padding: 10px 20px;
+    background: #373636;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    box-shadow:5px 5px 12px rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
 
+.graphic-design-projects {
+    position: relative;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
 
+.graphic-design-projects-1 {
+    position: relative;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.graphic-design-projects-2 {
+    position: relative;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#project-img-1 {
+    margin: 3%;
+    margin-top: 2%;
+    padding: 20px;
+    display: flex;
+    max-width: 410px;
+}
+
+#project-img-2 {
+    margin: 3%;
+    margin-top: 2%;
+    padding: 20px;
+    display: flex;
+}
+
+/*#project-img-3 {
+    margin: 5%;
+    padding: 2%;
+    display: flex;
+}
+*/
+
+#project-img-3 {
+    margin: 5%;
+    margin-top: 100px;
+    padding: 2%;
+    display: flex;
+    width: 550px;
+    height: auto;
+
+}
+#project-img-4 {
+    margin: 5%;
+    margin-top: 100px;
+    padding: 2%;
+    display: flex;
+    max-width: 513px;
+}
+
+.project-info-2 {
+    position: relative;
+    font-family: poppins;
+    margin: auto;
+    margin-top: 3%;
+    margin-left: 5%;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #373636;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    box-shadow:5px 5px 12px rgba(0,0,0,0.2);
+    border-radius: 3px;
 }
 
 .web-development-projects-1 {
@@ -91,42 +263,158 @@
 }
 
 #projects-web {
-
     background-color: #373636;
     color: white;
+    font-family: poppins;
     padding: 0;
-    padding-bottom: 70px;
-
-}
-
-@media (max-width: 20px) {
-    #projects-web {
-        flex-direction: column;
-    }
+    padding-bottom: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px; 
 }
 
 .web-development-projects-2 {
     position: relative;
-    margin: 10% 15% 0 10%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.graphic-design-projects {
-    position: relative;
-    margin-top: 15%;
-    margin-left: 15%;
+    margin: 0;
+    padding: 10%;
+    padding-top: 5%;
     display: grid;
+    gap: 10%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
     grid-template-columns: repeat(auto-fit, minmax(19rem,1fr));
 }
 
-.project-1-info {
-    position: absolute;
+@media only screen and (max-width: 1100px) {
+    #navbar {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: auto;
+    }
+    #navbar-links-2 {
+    margin-top: 5%;
+   }
+    .graphic-design-projects {
+    flex-direction: column;
+   }
+    .graphic-design-projects-1 {
+    flex-direction: column;
+   }
+   .graphic-design-projects-2 {
+    flex-direction: column;
+   }
+   #project-img-4 {
+    margin: auto;
+    margin-top:5% ;
+   }
+   #project-img-3 {
+    margin: auto;
+    margin-top:5% ;
+   }
+   #project-img-2 {
+    margin: auto;
+    margin-top:5% ;
+   }
+   #project-img-1 {
+    margin: auto;
+    margin-top:5% ;
+   }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .project-info  {
+
+     width: 77%;
+    }
+    .project-info-2 {
+
+        width: 77%;
+       }
+    #navbar-links-1 {
+        margin: auto;
+        
+    }
+    #navbar-links-2 {
+        margin: auto;
+    }
+    #navbar-links-3 {
+        margin: auto;
+    }
+  }
+
+  @media only screen and (max-width: 715px){
+    #project-img-1 {
+        display: block;
+        margin:auto
+    }
+    #project-img-2 {
+        display: block;
+        margin:auto
+    }
+
+    .graphic-design-projects {
+        display: block;
+        margin: auto;
+
+    }
+    .project-info {
+        position: relative;
+        margin: auto;
+        margin-left: 8%;
+        margin-top: 10%;
+    }
+    .project-info-2 {
+        position: relative;
+        margin: auto;
+        margin-left: 8%;
+        margin-top: 10%;
+    }
+
+    #projects-web {
+        width: auto;
+        height: auto;
+    }
 }
 
+@media only screen and (max-width: 715px){
+    
+}
 
-#project-img {
-    margin-top: 100px;
-    padding: 5%;
+@media only screen and (max-width: 470px){
+
+    .project-info {
+        font-size: smaller;
+        margin-left: 8%;
+    }
+    .project-info-2 {
+        font-size: smaller;
+        margin-left: 8%;
+    }
+    #project-img-1 {
+        width: 260px;
+        margin: auto;
+    }
+    #project-img-2 {
+        width: 260px;
+        margin: auto;
+    }
+    #project-img-3 {
+        width: 260px;
+        margin: auto;
+        padding:20px ;
+    }
+    #project-img-4 {
+        width: 260px;
+        margin: auto;
+        padding:20px ;
+    }
+    .project-info {
+        width: 100%;
+        margin: auto;
+        
+    }
+    .project-info-2 {
+        width: 100%;
+        margin: auto;
+    }
 }
